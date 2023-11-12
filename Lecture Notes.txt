@@ -6,3 +6,12 @@ sub-word: Tokenizers are used in practice -
 
 Google - SentencePiece
 OpenAI - Tiktoken
+
+Understanding Self Attention
+
+ - Improve the reliance on parts of context, we use a query and key.
+ - query is meant to understand what value is it looking for.
+ - key is meant to represent what value it represents
+
+Understanding Multihead Attention
+ - Running multiple heads of self attention in parallel
